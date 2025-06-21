@@ -13,7 +13,7 @@ const Social = () => {
                     rel="noopener noreferrer"
                     aria-label="Instagram"
                     >
-                    <FaInstagram size={24} color="#E4405F" />
+                    <FaInstagram size={24} color="#fff" />
                     </a>
                     <a
                     href="https://www.facebook.com/ThePackArte/"
@@ -21,7 +21,7 @@ const Social = () => {
                     rel="noopener noreferrer"
                     aria-label="Facebook"
                     >
-                    <FaFacebook size={24} color="#4267B2" />
+                    <FaFacebook size={24} color="#fff" />
                     </a>
                 </div>
           </div>
@@ -34,7 +34,7 @@ const Social = () => {
                     rel="noopener noreferrer"
                     aria-label="Instagram"
                     >
-                    <FaInstagram size={24} color="#E4405F" />
+                    <FaInstagram size={24} color="#fff" />
                     </a>
                     <a
                     href="https://www.facebook.com/thomaskefalasart"
@@ -42,7 +42,7 @@ const Social = () => {
                     rel="noopener noreferrer"
                     aria-label="Facebook"
                     >
-                    <FaFacebook size={24} color="#4267B2" />
+                    <FaFacebook size={24} color="#fff" />
                     </a>
                 </div>
             </div>

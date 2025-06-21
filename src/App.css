@@ -46,7 +46,6 @@ html {
   justify-content: space-between;
   width: 350px;
   margin-bottom: 20px;
-  
   border-bottom: 1px solid whitesmoke;
 }
 .social-info {
@@ -57,7 +56,9 @@ html {
   width: 100%;
   max-width: 300px; 
   gap: 16px; 
-  padding: 16px;
+  padding: 10px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 .artist-name {
@@ -74,20 +75,15 @@ html {
   justify-content: center;
 }
 .social-icons a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  border-radius: 50%;
   width: 35px;
   height: 35px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease;
   text-decoration: none;
 }
 
 .social-icons a:hover {
   transform: scale(1.1);
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+  
 }
 
 .cover-img {
