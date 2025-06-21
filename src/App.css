@@ -60,7 +60,7 @@ html {
   padding: 10px;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  @media (max-width: 425px) {
+  @media (max-width: 614px) {
     gap: 6px;
   }
 }
@@ -70,7 +70,7 @@ html {
   font-size: 1rem;
   margin-bottom: 10px;
   text-align: center;
-  @media (max-width: 425px) {
+  @media (max-width: 614px) {
     font-size: 0.8rem;
   }
   
@@ -86,7 +86,7 @@ html {
   height: 35px;
   transition: transform 0.2s ease;
   text-decoration: none;
-  @media (max-width: 425px) {
+  @media (max-width: 614px) {
     width: 25px;
     height: 25px;
   }
