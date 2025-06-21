@@ -25,8 +25,8 @@ function Book() {
         <div className="page" style={{ background: 'transparent' }}>
           <div className="page-content cover">
             <img 
-              src='/img/Balkanoia1_000.jpg' 
-              alt="Pokémon Logo" 
+              src='img/Balkanoia1_000.jpg' 
+              alt="Cover" 
               className="cover-img"
             />
           </div>
@@ -36,7 +36,7 @@ function Book() {
           <div className="page" key={index}>
             <div className="page-content" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
               <img 
-                src={`/img/${filename}`} 
+                src={`img/${filename}`} 
                 alt={filename} 
                 style={{ maxWidth: '100%', maxHeight: '100%' }}
               />
