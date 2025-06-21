@@ -25,7 +25,7 @@ function Book() {
         <div className="page" style={{ background: 'transparent' }}>
           <div className="page-content cover">
             <img 
-              src='img/Balkanoia1_000.jpg' 
+              src='img/Balkanoia1_000.jpeg' 
               alt="Cover" 
               className="cover-img"
             />
