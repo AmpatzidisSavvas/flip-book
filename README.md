@@ -1,0 +1,1 @@
+A responsive digital flipbook built with React.js and react-pageflip, showcasing Balkanoia Volume 1, an experimental art book by Savvas "ThePack Ampatzidis and Thomas Kefalas . This project recreates the feeling of flipping through a physical art book on any device, from desktop to mobile.
