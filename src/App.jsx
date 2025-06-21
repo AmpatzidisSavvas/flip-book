@@ -1,15 +1,14 @@
-import React from 'react';
+
 import Book from './components/Book';
 import './App.css';
+import Social from './components/Social';
 
 function App() {
   return (
     <div className="container">
-        <div className='social-container'>
-          <a href="https://www.instagram.com/thepack_art_/">Savvas "ThePack" Ampatzidis</a>
-          <a href="https://www.instagram.com/thomaskef/">Thomas Kefalas</a>
-        </div>
-        <Book />
+      <Social />
+      <Book />
+      <p className='flip'>Click to flip pages</p>
     </div>
   );
 }

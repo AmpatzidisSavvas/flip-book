@@ -26,6 +26,13 @@ html {
   padding: 10px;
 }
 
+.flip {
+  color: aliceblue;
+  border-top: 1px solid whitesmoke;
+  margin-top: 20px;
+  padding: 16px;
+}
+
 .container {
   width: 100%;
   height: 100%;
@@ -37,14 +44,54 @@ html {
 .social-container {
   display: flex;
   justify-content: space-between;
-  width: 400px;
+  width: 350px;
   margin-bottom: 20px;
   
+  border-bottom: 1px solid whitesmoke;
+}
+.social-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  max-width: 300px; 
+  gap: 16px; 
+  padding: 16px;
+}
+
+.artist-name {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
 }
 
 .cover-img {
   width: 100%;
-  
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
 }
 

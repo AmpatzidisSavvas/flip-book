@@ -29,7 +29,7 @@ export default [
       'plugin:react/recommended',
       'plugin:react-hooks/recommended',
       'plugin:react-refresh/recommended',
-      'prettier', // Ensure Prettier rules take precedence over other style rules
+      'prettier', 
     ],
     rules: {
       ...js.configs.recommended.rules,
