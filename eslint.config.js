@@ -1,7 +1,9 @@
 import js from '@eslint/js'
 import globals from 'globals'
+import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
+import prettier from 'eslint-plugin-prettier'
 
 export default [
   { ignores: ['dist'] },
@@ -16,17 +18,39 @@ export default [
         sourceType: 'module',
       },
     },
+    settings: { react: { version: '18.3' } },
     plugins: {
+      react,
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
+      prettier,
     },
+    extends: [
+      'plugin:react/recommended',
+      'plugin:react-hooks/recommended',
+      'plugin:react-refresh/recommended',
+      'prettier', // Ensure Prettier rules take precedence over other style rules
+    ],
     rules: {
       ...js.configs.recommended.rules,
+      ...react.configs.recommended.rules,
+      ...react.configs['jsx-runtime'].rules,
       ...reactHooks.configs.recommended.rules,
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      'react/jsx-no-target-blank': 'off',
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
+      ],
+      'prettier/prettier': [
+        'error',
+        {
+          useTabs: true,
+          tabWidth: 2,
+          singleQuote: false,
+          semi: true,
+          trailingComma: 'none',
+          printWidth: 160,
+        },
       ],
     },
   },
