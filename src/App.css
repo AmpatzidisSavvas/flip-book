@@ -31,6 +31,7 @@ html {
   border-top: 1px solid whitesmoke;
   margin-top: 20px;
   padding: 16px;
+  
 }
 
 .container {
@@ -59,6 +60,9 @@ html {
   padding: 10px;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
+  @media (max-width: 425px) {
+    gap: 6px;
+  }
 }
 
 .artist-name {
@@ -66,20 +70,26 @@ html {
   font-size: 1rem;
   margin-bottom: 10px;
   text-align: center;
+  @media (max-width: 425px) {
+    font-size: 0.8rem;
+  }
   
 }
-
-
 .social-icons {
   display: flex;
   gap: 12px;
   justify-content: center;
+  
 }
 .social-icons a {
   width: 35px;
   height: 35px;
   transition: transform 0.2s ease;
   text-decoration: none;
+  @media (max-width: 425px) {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 .social-icons a:hover {
