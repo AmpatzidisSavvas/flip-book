@@ -2,7 +2,7 @@
 import HTMLFlipBook from "react-pageflip";
 
 function Book() {
-  const imageList = Array.from({ length: 36 }, (_, i) => {
+  const imageList = Array.from({ length: 35 }, (_, i) => {
     const number = String(i + 1).padStart(3, '0'); 
     return `Balkanoia1_${number}.jpg`;
   });
@@ -25,7 +25,7 @@ function Book() {
         <div className="page" style={{ background: 'transparent' }}>
           <div className="page-content cover">
             <img 
-              src='img/Balkanoia1_000.jpeg' 
+              src='img/Balkanoia1_000.webp' 
               alt="Cover" 
               className="cover-img"
             />
