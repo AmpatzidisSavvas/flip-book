@@ -2,9 +2,9 @@
 import HTMLFlipBook from "react-pageflip";
 
 function Book() {
-  const imageList = Array.from({ length: 35 }, (_, i) => {
+  const imageList = Array.from({ length: 26 }, (_, i) => {
     const number = String(i + 1).padStart(3, '0'); 
-    return `Balkanoia1_${number}.jpg`;
+    return `Balkanoia1_${number}.webp`;
   });
   
   return (
