@@ -38,7 +38,7 @@ function Book() {
               <img 
                 src={`img/${filename}`} 
                 alt={filename} 
-                style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain'  }}
+                style={{ maxWidth: '100%', maxHeight: '100%',  }}
               />
             </div>
           </div>
